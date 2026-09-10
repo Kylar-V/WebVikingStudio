@@ -332,7 +332,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
          const subject = `Website inquiry from ${name}`;
          const body = `${message}\n\n---\nFrom: ${name}\nEmail: ${email}`;
-         const mailtoUrl = `mailto:kylar_valentine@hotmail.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+         const mailtoUrl = `mailto:hello@webvikingstudio.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
          window.location.href = mailtoUrl;
       });
